@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- swipper js css file  -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- my css file  -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Restaurant Website</title>
+
+</head>
+<body>
+    <!-- header section  -->
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Restaurant</a>
+
+        <div><i class="fas fa-bars" id="menu-bars"></i></div>
+
+        <nav class="navbar">
+            <a href="#home" >Home</a>
+            <a href="#about" >About</a>
+            <a href="#special" >Special</a>
+            <a href="#offers" >Offers</a>
+            <a href="#review" >Review</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#feedback" >Feedback</a>
+        </nav>
+    </header>
+
+    <!-- home section  -->
+
+     <section class="home" id="home">
+        <div class="content">
+                <h1>Welcome <span>Food</span> Lovers</h1>
+                <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio Eum Explicabo Voluptatum Amet Rerum Dolorum 
+                Placeat Nisi Dolore Enim Harum!</p>  
+        </div>
+    </section>
+
+
+     <!-- About us section   -->
+
+     <section class="about" id="about">
+
+        <h2>About Us</h2>
+        <h1>Our Story</h1>
+
+        <div class="container">
+
+            <div class="left"> 
+                <h2>
+                    We&apos;ve been making delicious food since 1990
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel sint aliquam. Optio doloremque 
+                    deserunt ab nobis! Esse, saepe? Architecto, quaerat qui! Et tempore accusantium veritatis sit minus.
+                     Delectus, asperiores? Cumque eius nobis in rerum culpa recusandae eaque deserunt, nihil dolorem magni 
+                     enim voluptatibus velit natus! Laborum quis iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Ut, iste.</p>
+            </div>
+
+            <div class="right">
+                <img src="images/about.png" alt="chef-image">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Special Dish Section  -->
+
+    <section class="special" id="special">
+        <div class="container">
+            <div class="slider swiper-container">
+                <div class="wrapper swiper-wrapper">
+                    
+                    <div class="slide swiper-slide">
+                        <div class="left">
+                            <h2>Our Special Dish</h2>
+                            <h1>Hot Pizza</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat libero porro!</p>
+                            <button id="button">Order Now</button>
+                        </div>
+                        <div class="right">
+                            <img src="images/hot-pizza.png" alt="Hot Pizza image">
+                        </div>
+                    </div>
+
+                    <div class="slide swiper-slide">
+                        <div class="left">
+                            <h2>Our Special Dish</h2>
+                            <h1>Fried Chicken</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat libero porro!</p>
+                            <button id="button">Order Now</button>
+                        </div>
+                        <div class="right">
+                            <img src="images/fried-chicken.png" alt="Fried Chicken image">
+                        </div>
+                    </div>
+
+                    <div class="slide swiper-slide">
+                        <div class="left">
+                            <h2>Our Special Dish</h2>
+                            <h1>Fried Fish</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat libero porro!</p>
+                            <button id="button">Order Now</button>
+                        </div>
+                        <div class="right">
+                            <img src="images/Fried fish.png" alt="Fish">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Today Offers  -->
+
+    <section class="offers" id="offers">
+
+        <h2>Today&apos;s</h2>
+        <h1>Offers</h1>
+
+        <div class="container">
+
+                <div class="card one">
+                    <h1>Penne Pasta</h1>
+                    <p>Upto 5% Discount</p>
+                </div>
+
+                <div class="card two">
+                    <h1>Tasty Samosa</h1>
+                    <p>Upto 5% Discount</p>
+                </div>
+
+                <div class="card three">
+                    <h1>Veg Salad</h1>
+                    <p>Upto 10% Discount</p>
+                </div>
+
+                <div class="card four">
+                    <h1>French Fries</h1>
+                    <p>Upto 10% Discount</p>
+                </div>
+
+        </div>        
+
+    </section>
+
+
+    <!-- review section  -->
+
+    <section class="review" id="review">
+        <div class="head">
+            <h2>Customer Review</h2>
+            <h1>What people think about us ?</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="user">
+                    <img src="images/rdj.jpg" >
+                    <div class="stars">
+                        <h2>Tony Stark</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quos fugiat ullam nobis beatae quae 
+                    laudantium ad, dolorum reiciendis iste autem natus magnam officia reprehenderit incidunt totam vero 
+                    dignissimos ut?</p>   
+            </div>
+
+            <div class="card"> 
+                <div class="user">
+                    <img src="images/tom-cruise.jpg">
+                    <div class="stars">
+                        <h2>Tom Cruise</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quos fugiat ullam nobis beatae quae 
+                    laudantium ad, dolorum reiciendis iste autem natus magnam officia reprehenderit incidunt totam vero 
+                    dignissimos ut?</p>   
+            </div>
+
+            <div class="card">
+                <div class="user">
+                    <img src="images/john-cena.jpg">
+                    <div class="stars">
+                        <h2>John Cena</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quos fugiat ullam nobis beatae quae 
+                    laudantium ad, dolorum reiciendis iste autem natus magnam officia reprehenderit incidunt totam vero 
+                    dignissimos ut?</p>   
+            </div>
+
+            <div class="card">
+                <div class="user">
+                    <img src="images/chris-hemsworth.jpg">
+                    <div class="stars">
+                        <h2>Chris Hemsworth</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quos fugiat ullam nobis beatae quae 
+                    laudantium ad, dolorum reiciendis iste autem natus magnam officia reprehenderit incidunt totam vero 
+                    dignissimos ut?</p>   
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- video gallery section  -->
+
+    <section class="video-gallery" id="gallery">
+    	
+        <h1>video gallery</h1>
+        <div class="video-container">
+            <div class="video"><iframe src="https://www.youtube.com/embed/HICi7OmO8dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/SzH9w4bpIqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/xPPLbEFbCAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/xfKQ-wB0hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/k8xRBTvbA0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/7EdpBH81XIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+
+    </section>
+
+
+   
+    <!-- feedback section  -->
+
+
+    <section class="feedback" id="feedback">
+
+        <h2>FeedBack</h2>
+        <h1>What&apos;s in your mind?</h1>
+
+        <div class="row">
+            <div class="left">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.48129454427!2d77.06889950048122!3d28.52728034370157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1627904405710!5m2!1sen!2sin">
+                </iframe>
+
+            </div>
+
+            <div class="right">
+
+                <div class="inputbox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="inputbox">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Food Name">
+                </div>
+
+                <div class="inputbox">
+                    <textarea placeholder="Write Your message here"  rows="10"></textarea>
+                </div>
+
+                <input type="button" id="button" value="Submit">
+
+            </div>
+        </div>    
+
+    </section>
+
+
+    <footer>
+
+        <div class="card-container">
+
+                <div class="card">
+
+                    <h2>Locations</h2>
+                    <a href="#">India</a>
+                    <a href="#">USA</a>
+                    <a href="#">Europe</a>
+                    <a href="#">China</a>
+                    <a href="#">Africa</a>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Quick Links</h2>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#special">Special</a>
+                    <a href="#offers">Offers</a>
+                    <a href="#review">Review</a>
+                    <a href="#feedback">Feedback</a>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Contact info</h2>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>New Delhi,India</a>
+                    <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                    <a href="#"><i class="fas fa-phone-square-alt"></i>+123456789</a>
+                    <a href="#"><i class="fab fa-whatsapp-square"></i>+123456789</a>
+
+                </div>
+
+                <div class="card social-media">
+
+                    <h2>Follow us</h2>
+                    <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                    <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                    
+                </div>
+        </div>     
+        <hr>
+
+        <div class="copyright">Copyright &copy; 2021 All Rights Reserved By <span>MANOJ KUMAR B</span></div>
+
+    </footer>
+
+
+    <!-- swipper js file  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- javascript file  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
